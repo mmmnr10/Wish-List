@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Wishlist",
+  "version": "1.0",
+  "description": "Premium Price Tracker & Wishlist",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Lägg till i Wishlist"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
